@@ -27,7 +27,21 @@
   line-height: normal;
   letter-spacing: -0.32px;
 }
-
+.circle_walla {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.text_circle {
+  border-radius: 60px;
+  background: #f2f7f4;
+  padding: 10px;
+  padding-top: 5px;
+}
 .card {
   border: none !important;
 }
@@ -149,6 +163,7 @@
     border-radius: 12px;
     background: var(--Primary-900, #041b0b);
   }
+
   .mathiwala_footer {
     /* border: solid black; */
     /* display: flex; */
