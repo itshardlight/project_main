@@ -1,0 +1,194 @@
+.main_container {
+  margin: 30px;
+}
+.btn_one {
+  display: flex;
+  padding: 10px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #0a4020;
+  color: var(--Generic-White, #fff);
+  font-family: "Satoshi Variable";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  border: none;
+}
+.nav_menu {
+  color: #363636;
+  font-family: "Satoshi Variable";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.card {
+  border: none !important;
+}
+.greenwala {
+  background: url("img1.jpeg");
+  background-repeat: no-repeat;
+  color: white;
+  width: 1600px;
+  height: 908.211px;
+  justify-content: center;
+}
+.arrow {
+  width: 14;
+  height: 14;
+  flex-shrink: 0;
+}
+.card_heading {
+  color: var(--Neutral-Rich-Black-850, #363636);
+  font-feature-settings: "ss02" on, "ss03" on;
+
+  /* Heading/H6/Medium/Desktop */
+  font-family: "Satoshi Variable";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.4px;
+}
+.card_info {
+  color: var(--Neutral-Rich-Black-700, #7e7e7e);
+  font-feature-settings: "ss02" on, "ss03" on;
+
+  /* Label/Medium/Regular */
+  font-family: "Satoshi Variable";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.card_img {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.over_lap {
+  position: absolute;
+  top: 160px;
+  left: 10px;
+  z-index: 10;
+  border-radius: 18.333px;
+  background: #fff;
+  color: var(--Neutral-Rich-Black-800, #5e5e5e);
+  font-feature-settings: "ss02" on, "ss03" on;
+  text-decoration: none;
+  display: flex;
+  width: 57.754px;
+  height: 24.456px;
+  padding: 4px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.text_area {
+  display: flex;
+  justify-content: space-between;
+}
+/* Styles for larger screens (PCs and tablets) */
+@media screen and (min-width: 768px) {
+  .mathiwala_footer {
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .f_head {
+    color: var(--Neutral-900, #111827);
+
+    /* Paragraph/Small/Medium */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  .f_block {
+    justify-content: center;
+    color: var(--Neutral-500, #6b7280);
+
+    /* Paragraph/Small/Medium */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  .talawala_footer {
+    display: flex;
+    justify-content: space-between;
+    color: var(--Neutral-500, #6b7280);
+
+    /* Paragraph/Small/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+  .card_walla {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+
+/* Styles for smaller screens (smartphones) */
+@media screen and (max-width: 767px) {
+  .footer_div {
+    border-radius: 12px;
+    background: var(--Primary-900, #041b0b);
+  }
+  .mathiwala_footer {
+    /* border: solid black; */
+    /* display: flex; */
+    justify-content: space-evenly;
+  }
+  .f_head {
+    color: var(--Neutral-900, #111827);
+
+    /* Paragraph/Small/Medium */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  .f_block {
+    justify-content: center;
+    color: var(--Neutral-500, #6b7280);
+
+    /* Paragraph/Small/Medium */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  .talawala_footer {
+    display: flex;
+    justify-content: space-between;
+    color: var(--Neutral-500, #6b7280);
+
+    /* Paragraph/Small/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+}
+.page_container {
+  justify-content: center;
+  display: flex;
+}
