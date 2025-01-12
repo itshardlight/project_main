@@ -196,6 +196,9 @@
     gap: 32px;
   }
 }
+.footer_div {
+  padding-top: 230px;
+}
 
 /* Styles for smaller screens (smartphones) */
 @media screen and (max-width: 767px) {
@@ -246,4 +249,5 @@
 .page_container {
   justify-content: center;
   display: flex;
+  padding-top: 30px;
 }
