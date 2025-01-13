@@ -77,6 +77,8 @@
   align-items: center;
   justify-content: center;
   margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .text_circle {
   border-radius: 60px;
