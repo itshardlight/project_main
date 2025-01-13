@@ -17,6 +17,8 @@
   flex-shrink: 0;
   padding: 40px;
   color: rgba(165, 165, 165, 0.521) !important;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .search_wala {
   border-radius: 12px;
